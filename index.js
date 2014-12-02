@@ -96,7 +96,7 @@ exports.add = function(url, options, callback) {
 					return callback(err);
 				}
 				
-				var fields = ['name', 'description', 'author', 'version', 'blender', 'location', 'warning', 'wiki_url', 'category'];
+				var fields = ['name', 'description', 'author', 'version', 'blender', 'location', 'category'];
 				for (var i = 0, n = fields.length; i < n; ++i) {
 					var field = fields[i];
 					if (!info.hasOwnProperty(field)) {
@@ -154,26 +154,39 @@ exports.add = function(url, options, callback) {
 							}
 							
 							return async.map(files, function(file, callback) {
+								var ext = path.extname(file);
+								if (file === '__MACOSX' || ext !== '' || ext !== '.py') {
+									return callback();
+								}
+								
 								var archiveFile = path.join(archiveDir, file);
 								return fs.stat(archiveFile, function(err, stats) {
 									if (err) {
 										return callback(err);
-									} else if (stats.isFile()) {
+									}
+									
+									if (stats.isFile()) {
 										return fs.readFile(archiveFile, function(err, content) {
 											return callback(err, [bareName(file), content, false]);
 										});
-									} else if (stats.isDirectory()) {
+									}
+									
+									if (stats.isDirectory()) {
 										return fs.readFile(path.join(archiveFile, '__init__.py'), function(err, content) {
 											return callback(err, [file, content, false]);
 										});
-									} else {
-										return callback(new Error(file + ' is neither a file or a directory.'));
 									}
+									
+									return callback();
 								});
 							}, callback);
 						});
 					},
 					function(descs, callback) {
+						descs = descs.filter(function(desc) {
+							return !!desc;
+						});
+						
 						return async.map(descs, function(desc, callback) {
 							desc.push(descs.filter(function(d) {
 								return d !== desc;

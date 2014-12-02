@@ -22,5 +22,1421 @@
 		"url": "https://raw.githubusercontent.com/Bloutiouf/blender-addon-registry/master/addon_registry.py",
 		"sha256": "14e7585922ec971bfc75ca25b8dea2d0bf51b0f5c325f5696a6651dd78f2bcf7",
 		"file": true
+	},
+	"space_view3d_screencast_keys": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				1,
+				7
+			],
+			"name": "Screencast Keys",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Screencast_Key_Status_Tool",
+			"author": "Paulo Gomes, Bart Crouch, John E. Herrenyo, Gaia Clary, Pablo Vazquez",
+			"description": "Display keys pressed in the 3D View, useful for screencasts.",
+			"tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=21612",
+			"warning": "",
+			"location": "3D View > Properties Panel > Screencast Keys",
+			"blender": [
+				2,
+				66,
+				0
+			]
+		},
+		"url": "https://svn.blender.org/svnroot/bf-extensions/trunk/py/scripts/addons/space_view3d_screencast_keys.py",
+		"sha256": "c9182905f6336f3cb5e0af4929903011bd2663f24395072394b13051ee21bf0c",
+		"file": true
+	},
+	"space_view3d_search&replace": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				1,
+				44
+			],
+			"name": "Search&Replace",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Material_Search",
+			"author": "Eduard Fekete",
+			"description": "Allows the user to search objects by texture or material and also to replace textures/materials with others very quick. Visit my Wikipage for more informations",
+			"tracker_url": "http://developer.blender.org/T37651",
+			"location": "View3D -> Tools -> Search&Replace",
+			"blender": [
+				2,
+				69,
+				0
+			]
+		},
+		"url": "http://wiki.blender.org/uploads/c/cd/Space_view3d_search%26replace1.44.1.zip",
+		"sha256": "85d03bd806b3173e9b8157d8572a867994d6d70f35d7702ba5840d23e8a23c02"
+	},
+	"stored_views": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				0,
+				3,
+				3,
+				"beta"
+			],
+			"name": "Stored Views",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/3D_interaction/stored_views",
+			"author": "nfloyd",
+			"tracker_url": "",
+			"blender": [
+				2,
+				71,
+				0
+			],
+			"warning": "beta release, single view only",
+			"location": "View3D > Properties > Stored Views",
+			"description": "Save and restore User defined views, pov, layers and display configs."
+		},
+		"url": "http://wiki.blender.org/uploads/d/dd/Addons-3dview-stored_views.7z",
+		"sha256": "e4fa7b4c242e44f888a1e09cc56dd5bd98cee5a936409c25b3e4dfdffc6a15c5"
+	},
+	"sun_position": {
+		"info": {
+			"description": "Show sun position with objects and/or sky texture",
+			"api": 53207,
+			"blender": [
+				2,
+				6,
+				5
+			],
+			"category": "3D View",
+			"name": "Sun Position",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Sun_Position",
+			"author": "Michael Martin",
+			"version": [
+				3,
+				0,
+				1
+			],
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=29714",
+			"warning": "",
+			"location": "World > Sun Position"
+		},
+		"url": "https://developer.blender.org/F20492",
+		"sha256": "ea03f5d2e42c520bdff4503725fe99097d63fd1123e256069315f12c342c734f"
+	},
+	"space_view3d_cut_copy_paste": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				0,
+				6
+			],
+			"name": "Cut/Copy/Paste objects and elements",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/CutCopyPaste3D",
+			"author": "dairin0d",
+			"description": "Cut/Copy/Paste objects and elements",
+			"tracker_url": "http://projects.blender.org/tracker/?func=detail&aid=31214",
+			"warning": "",
+			"location": "View3D -> Ctrl+X, Ctrl+C, Ctrl+V, Shift+Delete, Ctrl+Insert, Shift+Insert",
+			"blender": [
+				2,
+				6,
+				3
+			]
+		},
+		"url": "https://raw.github.com/dairin0d/cut-copy-paste/master/space_view3d_cut_copy_paste.py",
+		"sha256": "7260d6c97ace84e7b3ae1c213ea0bec7418d858cb33d84372ed22ad8aa0eac03",
+		"file": true
+	},
+	"DatablockTools": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				1,
+				1
+			],
+			"name": "Datablock Tools",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Datablock_Tools",
+			"author": "Vitor Balbio",
+			"description": "Some tools to handle Datablocks ",
+			"tracker_url": "",
+			"warning": "",
+			"location": "View3D > Object > Datablock Tools",
+			"blender": [
+				2,
+				69,
+				0
+			]
+		},
+		"url": "https://raw.github.com/vitorbalbio/code/master/Blender%20add-on/DatablockTools.py",
+		"sha256": "fa1e5929d37a2c7cc4a9d88272f413c19d0e0753034a98cb8574552e0c276646",
+		"file": true
+	},
+	"space_view_3d_display_tools": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				1,
+				6,
+				0
+			],
+			"name": "Display Tools",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/    3D_interaction/Display_Tools",
+			"author": "Jordi Vall-llovera Medina, Jhon Wallace",
+			"description": "Display tools for fast navigate/interact with the viewport",
+			"tracker_url": "",
+			"warning": "",
+			"location": "Toolshelf",
+			"blender": [
+				2,
+				7,
+				0
+			]
+		},
+		"url": "https://dl.dropboxusercontent.com/u/65106662/space_view_3d_display_tools.py",
+		"sha256": "04c5a6cc342dddcb5bf1781af38cf2a6125af0c5c8330c2cfb65780219a3d1a0",
+		"file": true
+	},
+	"3dview_mode-switch": {
+		"info": {
+			"category": "3D View",
+			"description": "Adds a context-senstive menu for switching modes",
+			"author": "Jonathan Williamson",
+			"name": "Quick Mode Switch Menu",
+			"version": [
+				0,
+				1
+			],
+			"location": "View3D > ALT+TAB",
+			"blender": [
+				2,
+				6,
+				6
+			]
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/3dview_mode-switch_0.1.zip",
+		"sha256": "623da0093b1e5e0ce670a767dcf228792d1ceb23006fc3218cda867d970e4936"
+	},
+	"add-mesh_polysphere": {
+		"info": {
+			"category": "Add Mesh",
+			"description": "Adds a poly cube to the scene via Add > Mesh > Poly Sphere",
+			"author": "Jonathan Williamson",
+			"name": "Add Poly Sphere",
+			"version": [
+				0,
+				3
+			],
+			"location": "View3D > Add > Mesh > Add Poly Sphere",
+			"blender": [
+				2,
+				6,
+				5
+			]
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/add-mesh_polysphere_0.3.zip",
+		"sha256": "547f153584f52ff04904f61bd195de3c62ba9cc42748cb19ee890d9c06c79bd2"
+	},
+	"add-mesh_skin-object": {
+		"info": {
+			"category": "Add Mesh",
+			"description": "Adds a single edge object with a Skin modifier",
+			"author": "Jonathan Williamson",
+			"name": "Add Skin Object",
+			"version": [
+				0,
+				1
+			],
+			"location": "View3D > Add > Mesh > Add Skin Object",
+			"blender": [
+				2,
+				6,
+				6
+			]
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/add-mesh_skin-object_0.1.zip",
+		"sha256": "9eb7a7cef7e2ecbd54308935aab28b1612f785bff8ec9bb713fcedbb804cbbe1"
+	},
+	"contour_tools": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"name": "Contour Retopology Tool",
+			"wiki_url": "http://cgcookie.com/blender/docs/contour-retopology/",
+			"author": "Patrick Moore",
+			"tracker_url": "https://github.com/CGCookie/script-bakery/issues?labels=Contour+Retopology&milestone=1&page=1&state=open",
+			"blender": [
+				2,
+				6,
+				8
+			],
+			"warning": "",
+			"location": "View 3D > Tool Shelf",
+			"description": "A tool to retopologize forms quickly with contour strokes."
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/contour_tools_1.0.0.zip",
+		"sha256": "a70aee98249406702b93120fe0386507664ff57b86c21f5f7f2a0e045d62eb1c"
+	},
+	"help_cgcookie": {
+		"info": {
+			"category": "Help",
+			"description": "Adds a link to Blender Cookie Tutorials in the Help menu",
+			"author": "Jonathan Williamson",
+			"name": "Add Blender Cookie to the Help menu",
+			"version": [
+				0,
+				1
+			],
+			"location": "Help > Blender Cookie",
+			"blender": [
+				2,
+				6,
+				6
+			]
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/help_cgcookie_0.1.zip",
+		"sha256": "a11422cf6b1a0abe5a739558b5b8ea38736b0a927d335fb64b51b4a31d595368"
+	},
+	"object_booleans": {
+		"info": {
+			"category": "3D View",
+			"description": "Add Boolean Operators",
+			"author": "Jonathan Williamson",
+			"name": "Boolean Operators",
+			"version": [
+				0,
+				3
+			],
+			"location": "View3D > Toolbar",
+			"blender": [
+				2,
+				6,
+				6
+			]
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/object_booleans_0.3.zip",
+		"sha256": "e8d701ede480b5cc0f73ccfe0b69c54ced754498cdb6e2db9da69dc300bc2189"
+	},
+	"quicktools": {
+		"info": {
+			"category": "3D View",
+			"version": [
+				0,
+				7
+			],
+			"name": "Quick Tools",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/quicktools",
+			"author": "Jonathan Williamson",
+			"tracker_url": "https://github.com/CGCookie/script-bakery/issues",
+			"blender": [
+				2,
+				6,
+				7
+			],
+			"warning": "",
+			"location": "View3D - 'Q' key gives a menu in Object, Edit, and Sculpt modes.",
+			"description": "A series of tools and menus to enhance and speed up workflow"
+		},
+		"url": "https://raw.githubusercontent.com/CGCookie/script-bakery/master/release/quicktools_0.7.zip",
+		"sha256": "d8d56a3329cc1e18d7f056af870cfa0a522824822f6e5a932c1581d010cdea7f"
+	},
+	"archimesh": {
+		"info": {
+			"category": "Add Mesh",
+			"description": "Generate rooms, doors, windows, kitchen cabinets, shelves, roofs, stairs and other architecture stuff.",
+			"author": "Antonio Vazquez (antonioya)",
+			"name": "Archimesh",
+			"version": [
+				1,
+				0,
+				2
+			],
+			"location": "View3D > Add > Mesh > Archimesh",
+			"blender": [
+				2,
+				6,
+				8
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Antonioya/blender/master/archimesh/archimesh_1_0_2.zip",
+		"sha256": "2e71e642fa101d96c92a3187fcef6ccc2c6ea78d146b377914451992f7de1214"
+	},
+	"material_relations": {
+		"info": {
+			"category": "Material",
+			"description": "Display the objects that use the selected material.",
+			"author": "Antonio Vazquez (antonioya)",
+			"name": "Display material relationship",
+			"version": [
+				0,
+				1,
+				1
+			],
+			"location": "Material Panel",
+			"blender": [
+				2,
+				68,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Antonioya/blender/master/display_materials/src/material_relations.py",
+		"sha256": "538ea7105613f1e9475bd07674147f7adcc16f104c1d43ae7d5c1bfd40c6f8c8",
+		"file": true
+	},
+	"doc_scenes": {
+		"info": {
+			"category": "Import-Export",
+			"description": "Create html documentation for blend files, including storyboards, images and linked assets.",
+			"author": "Antonio Vazquez (antonioya)",
+			"name": "Create html documentation",
+			"version": [
+				0,
+				3
+			],
+			"location": "File > Import-Export",
+			"blender": [
+				2,
+				6,
+				8
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Antonioya/blender/master/doc_scenes/doc_scenes_0.3.zip",
+		"sha256": "304626feaeb21143b315bf1f0039afca765809977e885a5372ba06f74b5165a2"
+	},
+	"iskeyfree": {
+		"info": {
+			"category": "UI",
+			"description": "Find free shortcuts and inform of used keys",
+			"author": "Antonio Vazquez (antonioya)",
+			"name": "Find free keyboard shortcuts",
+			"version": [
+				1,
+				0
+			],
+			"location": "Properties pane > IsKeyFree Tools",
+			"blender": [
+				2,
+				6,
+				9
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Antonioya/blender/master/iskeyfree/iskeyfree_1_0_0.zip",
+		"sha256": "55ee369d289f5e59dc112ce65e602a00029748f61e2bfb3fe76119ff811bc066"
+	},
+	"turnaround_camera": {
+		"info": {
+			"category": "3D View",
+			"description": "Add a camera rotation around selected object.",
+			"author": "Antonio Vazquez (antonioya)",
+			"name": "Turnaround camera around object",
+			"version": [
+				0,
+				2,
+				4
+			],
+			"location": "View3D > Toolshelf > Turnaround camera",
+			"blender": [
+				2,
+				68,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Antonioya/blender/master/turnaround_camera/turnaround_camera_0_2_4.zip",
+		"sha256": "a6fcb4bfe8b2f63f753306858eb2bae96358dd1867c7e805b2ec2ec299a6f05d"
+	},
+	"reset3dview": {
+		"info": {
+			"category": "View",
+			"version": [
+				1,
+				0,
+				2
+			],
+			"name": "Reset 3D View",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Reset_3D_View",
+			"author": "Reiner 'Tiles' Prokein",
+			"blender": [
+				2,
+				69,
+				0
+			],
+			"warning": "",
+			"location": "View3D > View",
+			"description": "Resets the views of all 3D windows to standard view"
+		},
+		"url": "http://www.reinerstilesets.de/blender/reset3dview.py",
+		"sha256": "2323cbbc3aacc457a151b891bd6b7e94d98f941108f3e38aeea2963e3f863293",
+		"file": true
+	},
+	"MusicPlayer": {
+		"info": {
+			"category": "Misc",
+			"version": [
+				0,
+				2,
+				2
+			],
+			"name": "Music Player",
+			"wiki_url": "",
+			"author": "edddy <edddy74@live.fr> + nikitron.cc.ua a little",
+			"description": "A Little Music Player for Blender",
+			"tracker_url": "",
+			"warning": "",
+			"location": "View3D > Tool Shelf > Music Player",
+			"blender": [
+				2,
+				7,
+				5
+			]
+		},
+		"url": "https://raw.githubusercontent.com/nortikin/nikitron_tools/master/MusicPlayer.py",
+		"sha256": "3f06a01f0e903b65324f5063eab68e1a713980ae81783835fc668141bbaf9fe7",
+		"file": true
+	},
+	"add_dimension": {
+		"info": {
+			"category": "Add Curve",
+			"version": [
+				3,
+				9,
+				1
+			],
+			"name": "Dimension",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Curve/Dimension",
+			"author": "Spivak Vladimir (http://cwolf3d.korostyshev.net)",
+			"description": "Adds Dimension",
+			"tracker_url": "http://developer.blender.org/T37151",
+			"warning": "",
+			"location": "View3D > Add > Curve",
+			"blender": [
+				2,
+				6,
+				9
+			]
+		},
+		"url": "http://cwolf3d.korostyshev.net/images/dimension/add_dimension.zip",
+		"sha256": "ee6b4f1f106ccc6c6961629d5a34418718cd22328b8709028f0267fe55083b12"
+	},
+	"add_simple_curve": {
+		"info": {
+			"category": "Add Curve",
+			"version": [
+				1,
+				5,
+				2
+			],
+			"name": "Simple Curve",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Curve/Simple_curves",
+			"author": "Spivak Vladimir (http://cwolf3d.korostyshev.net)",
+			"description": "Adds Simple Curve",
+			"tracker_url": "https://developer.blender.org/T37664",
+			"warning": "",
+			"location": "View3D > Add > Curve",
+			"blender": [
+				2,
+				6,
+				9
+			]
+		},
+		"url": "http://cwolf3d.korostyshev.net/images/simple_curve/add_simple_curve.zip",
+		"sha256": "daee3e8ba5d2707018c5129abf88ca747f9767fc806646d864db5b523ada6421"
+	},
+	"add_mesh_local_qrcode": {
+		"info": {
+			"category": "Add Mesh",
+			"version": [
+				1,
+				1
+			],
+			"name": "Local QR Code",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Local_QR_Code_Generator",
+			"author": "Jacob Welsh",
+			"blender": [
+				2,
+				65,
+				0
+			],
+			"location": "View3D > Add > Mesh > Local QR Code",
+			"description": "Add a QR code mesh. Generates codes locally using python-qrcode, not a web service."
+		},
+		"url": "http://www.welshcomputing.com/~jwelsh/progs/add_mesh_local_qrcode-1.1.zip",
+		"sha256": "e714b6db5f4e4c01a8236f6ee82fc7987859149ec6eb27249566ce5917dcacbd"
+	},
+	"block_wall_builder": {
+		"info": {
+			"category": "Add Mesh",
+			"version": [
+				0,
+				2
+			],
+			"name": "Block Wall Builder",
+			"wiki_url": "http://wiki.blender.org/index.php/User:BlueBlender42zu/Addons/block_wall_builder",
+			"author": "Jonathon Anderson",
+			"description": "Builder for block walls.",
+			"tracker_url": "http://projects.blender.org/tracker/?func=detail&aid=31422",
+			"warning": "Beta",
+			"location": "View3D > Add > Mesh > Block Wall",
+			"blender": [
+				2,
+				6,
+				3
+			]
+		},
+		"url": "https://developer.blender.org/F19196",
+		"sha256": "2469a848acc74bb8a1813ee64b4ee81c28911132381ef5e200b56af8c0db9c5c",
+		"file": true
+	},
+	"add_mesh_qrcode": {
+		"info": {
+			"description": "Adds a QR Code mesh to the Add Mesh menu. Requires internet connection to generate a QR Code pattern.",
+			"api": 35853,
+			"blender": [
+				2,
+				5,
+				7
+			],
+			"category": "Add Mesh",
+			"name": "QR Code",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/QR_Code_Generator",
+			"author": "Esponce.com",
+			"version": [
+				1,
+				1
+			],
+			"tracker_url": "http://code.google.com/p/qr-code-plugins/issues/list",
+			"warning": "",
+			"location": "View3D > Add > Mesh"
+		},
+		"url": "https://qr-code-plugins.googlecode.com/svn/trunk/blender/add_mesh_qrcode.py",
+		"sha256": "947085996ecbf4687c5469c20a2e29ac57362c9de8be222fe4eb5537662813e1",
+		"file": true
+	},
+	"add_mesh_ogive": {
+		"info": {
+			"description": "Adds Ogive",
+			"api": 35969,
+			"blender": [
+				2,
+				5,
+				6
+			],
+			"category": "Add Mesh",
+			"name": "Ogive",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Add_Mesh/Add_Ogive",
+			"author": "Julien Duroure",
+			"version": [
+				1,
+				0
+			],
+			"tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=26779",
+			"warning": "",
+			"location": "View3D > Add > Mesh > Ogive"
+		},
+		"url": "https://developer.blender.org/F16709",
+		"sha256": "2bbc649be9382c7357ab4b085d58aaa63d1eb87c3a0697cae7b275e4fdfa72ce",
+		"file": true
+	},
+	"createisocam": {
+		"info": {
+			"category": "Create",
+			"version": [
+				1,
+				0
+			],
+			"name": "Create IsoCam",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Create_IsoCam",
+			"author": "Reiner 'Tiles' Prokein",
+			"blender": [
+				2,
+				69,
+				0
+			],
+			"warning": "",
+			"location": "Toolshelf",
+			"description": "Creates a true isometric camera or a isometric camera for game needs"
+		},
+		"url": "http://www.reinerstilesets.de/blender/createisocam.py",
+		"sha256": "d80c4329768d23d0c24a3489f291a2c20d3fd18eb8f368dc69abedca798a782c",
+		"file": true
+	},
+	"add_mesh_DataSurface-master": {
+		"info": {
+			"category": "Add Mesh",
+			"version": [
+				1,
+				1
+			],
+			"name": "3D Surfaces from Data Files",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Data_Surface",
+			"author": "Sun Sibai (niasw) <niasw@pku.edu.cn>",
+			"description": "Create Object using Data Files.",
+			"location": "View3D > Add > Mesh",
+			"blender": [
+				2,
+				71,
+				0
+			]
+		},
+		"url": "https://github.com/niasw/add_mesh_DataSurface/archive/master.zip",
+		"sha256": "71fefc0c737d2a4e53d33855e32090cbc7cbf40dabf3d426ee7ddc2ca17d2c5a"
+	},
+	"add_mesh_round_cube": {
+		"info": {
+			"category": "Add Mesh",
+			"version": [
+				0,
+				3
+			],
+			"name": "Round Cube",
+			"wiki_url": "http://wiki.blender.org/index.php?title=Extensions:2.6/Py/Scripts/Add_Mesh/Add_Round_Cube",
+			"author": "Alain Ducharme (Phymec)",
+			"blender": [
+				2,
+				65,
+				0
+			],
+			"warning": "",
+			"location": "View3D > Add > Mesh > Round Cube",
+			"description": "Add mesh primitives: Quadspheres, Capsules, Rounded Cuboids, 3D Grids, etc."
+		},
+		"url": "https://developer.blender.org/F110897",
+		"sha256": "e1b3325993ec5cdd3c48beec3ff45d87766f1d3f4387aefb7599a3f0373a13be",
+		"file": true
+	},
+	"Follow_1_1": {
+		"info": {
+			"category": "Animation",
+			"version": [
+				1,
+				1
+			],
+			"name": "Follow_1_1",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/Follow_Objects",
+			"author": "Koilz",
+			"description": "Follow objects.",
+			"warning": "",
+			"location": "Properties > Scene > Follow Panel",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://developer.blender.org/F84439",
+		"sha256": "bb03ad5c50edda6389f4ff4c74739bd7e8abb97c5f891efe7ac0adf8556cb4eb",
+		"file": true
+	},
+	"arewo": {
+		"info": {
+			"category": "Animation",
+			"version": [
+				1,
+				0
+			],
+			"name": "arewo",
+			"wiki_url": "",
+			"author": "Frederik Steinmetz",
+			"tracker_url": "http://www.blenderdiplom.com",
+			"blender": [
+				2,
+				68,
+				0
+			],
+			"warning": "This is an Alpha version",
+			"location": "Toolshelf",
+			"description": "Replicates Objects with their animation offset in time"
+		},
+		"url": "http://blenderdiplom.com/files/arewo.py",
+		"sha256": "ba65a80cbf5f9d75ec73530e4049956f8b362ede7a31ad7dbe011cea756b4754",
+		"file": true
+	},
+	"Sniper": {
+		"info": {
+			"category": "Animation",
+			"name": "Sniper",
+			"author": "Jacques Lucke",
+			"description": "Professional camera animations for motion graphics.",
+			"version": [
+				1,
+				3,
+				2
+			],
+			"location": "View 3D > Tool Shelf > Animation/Sniper",
+			"blender": [
+				2,
+				7,
+				1
+			]
+		},
+		"url": "http://blenderdiplom.com/files/Sniper.zip",
+		"sha256": "dcb46c5914d78fe1a4702d20423519e834db94f11742fce1d586f8a8d2a895b5"
+	},
+	"breakpoint": {
+		"info": {
+			"description": "Breakpoint allows you to pause script execution and display variables values.",
+			"api": 46461,
+			"blender": [
+				2,
+				6,
+				3
+			],
+			"category": "Development",
+			"name": "BreakPoint",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Development/BreakPoint",
+			"author": "Christopher Barrett  (www.goodspiritgraphics.com)",
+			"version": [
+				2,
+				0
+			],
+			"tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=28802",
+			"warning": "",
+			"location": "Text Editor > Properties"
+		},
+		"url": "http://goodspiritgraphics.com/files/scripts/breakpoint.zip",
+		"sha256": "ba4f45e927f074b600717c2b6d68607e1287441b93cc25f64c93d5b99466fa6f"
+	},
+	"development_macros_recorder": {
+		"info": {
+			"category": "Development",
+			"version": [
+				1,
+				4
+			],
+			"name": "Macros Recorder",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Development/Macros_Recorder",
+			"author": "dairin0d",
+			"description": "Record macros to text blocks",
+			"tracker_url": "http://projects.blender.org/tracker/?func=detail&aid=31325",
+			"warning": "",
+			"location": "Text Editor -> Text -> Record Macro",
+			"blender": [
+				2,
+				6,
+				0
+			]
+		},
+		"url": "https://raw.github.com/dairin0d/macros-recorder/master/development_macros_recorder.py",
+		"sha256": "77d1947b9c45b6848985e2d1717fe984727a4a16c522dc5290df527b1d7a8cbb",
+		"file": true
+	},
+	"game_gamekit": {
+		"info": {
+			"category": "Game Engine",
+			"version": [
+				0,
+				0,
+				611
+			],
+			"name": "Gamekit Engine",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Gamekit_Engine",
+			"author": "Xavier Thomas (xat)",
+			"api": 35899,
+			"description": "Launch game using the fine gamekit engine",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=23378&group_id=153&atid=514",
+			"location": "Info Window > Render Engine > Gamekit",
+			"blender": [
+				2,
+				6,
+				6
+			]
+		},
+		"url": "https://gamekit.googlecode.com/svn/trunk/BlenderAddon/addon_game_gamekit.zip",
+		"sha256": "bf94965ac7ccc5ebb16e11a485bea26a61efe7261fa45e2fd8341738cc1f3cf0"
+	},
+	"blend_library": {
+		"info": {
+			"category": "Import-Export",
+			"version": [
+				0,
+				3,
+				1
+			],
+			"name": "Blend Library",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Blend_Library",
+			"author": "Vincent Gires",
+			"blender": [
+				2,
+				7,
+				2
+			],
+			"warning": "",
+			"location": "3D View > Tools || Node Editor > Tools",
+			"description": "Asset Manager - Append or link materials/objects/groups/node groups of specific folder locations"
+		},
+		"url": "http://vincentgires.com/tools/blender/addons/blend_library/v031/blend_library.py",
+		"sha256": "5d0a2a3d870803e226432b91357035995a5b41da5dc698d71b88e0b4e4433bd2",
+		"file": true
+	},
+	"io_export_selected": {
+		"info": {
+			"category": "Import-Export",
+			"version": [
+				1,
+				5,
+				2
+			],
+			"name": "Export Selected",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Export_Selected",
+			"author": "dairin0d, rking",
+			"description": "Export selected objects to a chosen format",
+			"tracker_url": "http://projects.blender.org/tracker/?func=detail&aid=30942",
+			"warning": "",
+			"location": "File > Export > Selected",
+			"blender": [
+				2,
+				6,
+				9
+			]
+		},
+		"url": "https://raw.github.com/dairin0d/export-selected/master/io_export_selected.py",
+		"sha256": "1ce18d7eaa6146bc49134651d9ce32ec771cd3202d4d88cc9f8e5d348e122b82",
+		"file": true
+	},
+	"io_export_paper_model": {
+		"info": {
+			"category": "Import-Export",
+			"version": [
+				0,
+				9
+			],
+			"name": "Export Paper Model",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Paper_Model",
+			"author": "Addam Dominec",
+			"description": "Export printable net of the active mesh",
+			"tracker_url": "https://developer.blender.org/T38441",
+			"warning": "",
+			"location": "File > Export > Paper Model",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/addam/Export-Paper-Model-from-Blender/master/io_export_paper_model.py",
+		"sha256": "fc6f11922de895d436e59240e20c82f8f87511d321305cc3c94a12d0d009a6cf",
+		"file": true
+	},
+	"io_import_sibl_gui": {
+		"info": {
+			"category": "Import-Export",
+			"version": [
+				0,
+				2
+			],
+			"name": "sIBL GUI for Blender",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/sIBL_GUI",
+			"author": "Jed Frechette <jedfrechette@gmail.com>",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=36606",
+			"blender": [
+				2,
+				68,
+				0
+			],
+			"location": "File > Import",
+			"description": "Import image-based lighting setup from sIBL GUI."
+		},
+		"url": "https://bitbucket.org/jedfrechette/sibl_gui_for_blender/raw/0.2/io_import_sibl_gui.py",
+		"sha256": "6bcb0e3e225bd66edb1908e2eb8a605488bba982a3eee007037cb549f32bcd06",
+		"file": true
+	},
+	"import_off": {
+		"info": {
+			"category": "Import-Export",
+			"version": [
+				0,
+				2
+			],
+			"name": "OFF format",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/My_Script",
+			"author": "Alex Tsui",
+			"blender": [
+				2,
+				69,
+				0
+			],
+			"warning": "",
+			"location": "File > Import-Export",
+			"description": "Import-Export OFF, Import OFF mesh only, for now."
+		},
+		"url": "https://raw.githubusercontent.com/alextsui05/blender-off-addon/master/import_off.py",
+		"sha256": "c631808303f474353b1d3358fb0a44e720fcef79942bffabd3498b0594d06adc",
+		"file": true
+	},
+	"mycalexporter269": {
+		"info": {
+			"description": "Export cal3d",
+			"api": 31847,
+			"blender": [
+				2,
+				6,
+				2
+			],
+			"category": "Import-Export",
+			"name": "Export Cal3d (.cfg)",
+			"wiki_url": "http://wiki.blender.org/",
+			"author": "MpEbUtCh3r et al",
+			"version": [
+				0,
+				5,
+				66
+			],
+			"tracker_url": "http://google.com",
+			"warning": "TODO Features: Collect IPO to avoid animation baking ",
+			"location": "File > Export > Cal3d Skeletal Mesh/Animation Data (.cfg)"
+		},
+		"url": "https://blender2cal3d-exporter.googlecode.com/files/mycalexporter269.py",
+		"sha256": "a8ed57798f163295dc5423aa92d0452a25d4d37243ebb001f03b6cca4a5991d0",
+		"file": true
+	},
+	"mesh_select_nonmanifold_edges": {
+		"info": {
+			"category": "Mesh",
+			"version": [
+				0,
+				3
+			],
+			"name": "Select Non-manifold edges",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Modeling/Select_nonmanifold_edges",
+			"author": "Yorik van Havre <yorik@uncreated.net>",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?https://projects.blender.org/tracker/index.php?func=detail&aid=21421",
+			"blender": [
+				2,
+				5,
+				6
+			],
+			"warning": "",
+			"location": "Mesh > Edges > Select non-manifold edges",
+			"description": "Selects non-manifold edges in the active mesh object"
+		},
+		"url": "http://yorik.uncreated.net/scripts/blender25/mesh_select_nonmanifold_edges.py",
+		"sha256": "41577b6bcc748c5d9e18c545e5625457b7cd7ba13b28f77845c01ebbce02d908",
+		"file": true
+	},
+	"edge_fillet_17_addon": {
+		"info": {
+			"category": "Mesh",
+			"version": [
+				0,
+				2,
+				1
+			],
+			"name": "Dynamic Edge Fillet",
+			"wiki_url": "",
+			"author": "Dealga McArdle (zeffii) <digitalaphasia.com>",
+			"description": "select a vertex, connected to two edges, it will fillet the edge.",
+			"tracker_url": "",
+			"location": "3d view > Tool properties > Dynamic Edge Fillet",
+			"blender": [
+				2,
+				5,
+				8
+			]
+		},
+		"url": "https://raw.github.com/zeffii/GL-fillet/master/edge_fillet_17_addon.py",
+		"sha256": "c81209ae150c1bbaa76c657a5971c5558700b217ded3c1a119c55f681d6372b0",
+		"file": true
+	},
+	"mesh_edgetune": {
+		"info": {
+			"category": "Mesh",
+			"version": [
+				3,
+				5,
+				0
+			],
+			"name": "EdgeTune",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Mesh/EdgeTune",
+			"author": "Gert De Roost",
+			"description": "Tuning edgeloops by redrawing them manually, sliding verts.",
+			"tracker_url": "",
+			"warning": "",
+			"location": "View3D > Tools",
+			"blender": [
+				2,
+				6,
+				3
+			]
+		},
+		"url": "http://www.ewocprojects.be/mesh_edgetune.py",
+		"sha256": "7e5c7e8a228c73d95428ea9207c8150271bf3a37e884d48496a128649fa10949",
+		"file": true
+	},
+	"mesh_offset_edges": {
+		"info": {
+			"category": "Mesh",
+			"version": [
+				0,
+				1,
+				17
+			],
+			"name": "Offset Edges",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Modeling/offset_edges",
+			"author": "Hidesato Ikeya",
+			"description": "Offset Edges",
+			"tracker_url": "",
+			"warning": "",
+			"location": "VIEW3D > Edge menu(CTRL-E) > Offset Edges",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://github.com/Bombaba/BlenderPythonScripts/raw/master/mesh_offset_edges.py",
+		"sha256": "24f46d93a038468ade8f0d0f6a24c245b4aec0cdd9dd84cdc487b7ae39d06a4a",
+		"file": true
+	},
+	"generic_note": {
+		"info": {
+			"category": "Node",
+			"version": [
+				0,
+				1,
+				5
+			],
+			"wiki-url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Nodes/Generic_Note",
+			"name": "Generic Note Node",
+			"author": "Linus Yng",
+			"blender": [
+				2,
+				7,
+				1
+			],
+			"warning": "The note will not work for people without this addon",
+			"location": "Node Editor, N-Panel or menu Layout",
+			"description": "A generic note node"
+		},
+		"url": "https://raw.githubusercontent.com/ly29/GenericNote/master/generic_note.py",
+		"sha256": "9cfef0610bdd6ec25b10d856cef6f93e07e6518f10245851904aab253bfccaeb",
+		"file": true
+	},
+	"particle_hair_lab": {
+		"info": {
+			"category": "Object",
+			"version": [
+				0,
+				5
+			],
+			"name": "Grass Lab",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Object/Hair_Lab",
+			"author": "Ondrej Raha(lokhorn), meta-androcto",
+			"description": "Creates particle grass with material",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=30238",
+			"warning": "",
+			"location": "View3D > Tool Shelf > Grass Preset Panel",
+			"blender": [
+				2,
+				60,
+				0
+			]
+		},
+		"url": "https://svn.blender.org/svnroot/bf-extensions/contrib/py/scripts/addons/particle_hair_lab.py",
+		"sha256": "44fb4a4aa3868226b2d0decc36427f228dfb8d9265d73bab40a95ad1ac851c8c",
+		"file": true
+	},
+	"HairNet": {
+		"info": {
+			"category": "Particle",
+			"version": [
+				0,
+				4,
+				6
+			],
+			"name": "HairNet",
+			"wiki_url": "http://wiki.blender.org/index.php?title=Extensions:2.6/Py/Scripts/Objects/HairNet",
+			"author": "Rhett Jackson",
+			"description": "Creates a particle hair system with hair guides from mesh edges which start at marked seams.",
+			"tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=35062&group_id=153&atid=467",
+			"location": "Properties",
+			"blender": [
+				2,
+				6,
+				7
+			]
+		},
+		"url": "https://dl.dropboxusercontent.com/u/731399/HairNet/HairNet.py",
+		"sha256": "d8b2bdc7d3f2bda280500a5c32697d5e5ab9fddb51a00357c723c6ac99bacec0",
+		"file": true
+	},
+	"render_to_print": {
+		"info": {
+			"category": "Render",
+			"version": [
+				0,
+				2
+			],
+			"name": "Render to Print",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Render/Render to Print",
+			"author": "Marco Crippa <thekrypt77@tiscali.it>, Dealga McArdle",
+			"description": "Set the size of the render for a print",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=24219",
+			"location": "Render > Render to Print",
+			"blender": [
+				2,
+				58,
+				0
+			]
+		},
+		"url": "https://svn.blender.org/svnroot/bf-extensions/contrib/py/scripts/addons/render_to_print.py",
+		"sha256": "9164d636101e78196e8f5900bb2d342f4eb2de1a8a6c8e203b8038365c18629f",
+		"file": true
+	},
+	"spritify": {
+		"info": {
+			"category": "Render",
+			"version": [
+				0,
+				5,
+				1
+			],
+			"name": "Spritify",
+			"wiki_url": "http://wiki.blender.org/index.php?title=Extensions:2.6/Py/Scripts/Render/Spritify",
+			"author": "Jason van Gumster (Fweeb)",
+			"description": "Converts rendered frames into a sprite sheet once render is complete",
+			"tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=31129&group_id=153&atid=467",
+			"warning": "Requires ImageMagick",
+			"location": "Render > Spritify",
+			"blender": [
+				2,
+				66,
+				0
+			]
+		},
+		"url": "https://raw.github.com/Fweeb/blender_spritify/master/spritify.py",
+		"sha256": "a7356531b1b04bc18389b395cc2ae02447c50bf28f39533fbedb2c4ce401197c",
+		"file": true
+	},
+	"rigging_camerarigs": {
+		"info": {
+			"category": "Rigging",
+			"version": [
+				0,
+				9
+			],
+			"name": "Add Camera Rigs",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Rigging/Add_Camera_Rigs",
+			"author": "Wayne Dixon, Kris Wittig",
+			"description": "Adds a Camera Rig with UI",
+			"warning": "",
+			"location": "View3D > Add > Armature > Dolly or Camera Rig",
+			"blender": [
+				2,
+				69,
+				0
+			]
+		},
+		"url": "https://raw.github.com/waylow/Add_Camera_Rigs/master/rigging_camerarigs.py",
+		"sha256": "dcda06c430bb2aeb1053f71540d52c7de5b75c0c75b0f66f5b84179fdfd0d6df",
+		"file": true
+	},
+	"reset_to_basis": {
+		"info": {
+			"category": "Rigging",
+			"version": [
+				1,
+				1
+			],
+			"name": "Shape Keys - Reset to Basis",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Rigging/SK_Reset_Vertex",
+			"author": "Koilz",
+			"description": "Adds some tools to the Shape Keys panel.",
+			"warning": "",
+			"location": "Properties > Data > Shape Keys > Edit Mode",
+			"blender": [
+				2,
+				72,
+				0
+			]
+		},
+		"url": "https://developer.blender.org/F111329",
+		"sha256": "8987892f2964797e10d6a177ae036dee972b6c4a7b2560ba077f63ffccd96c53",
+		"file": true
+	},
+	"balance_vertex_groups_12": {
+		"info": {
+			"category": "Rigging",
+			"version": [
+				1,
+				2
+			],
+			"name": "Balance Vertex Groups",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Rigging/VG_Oppose",
+			"author": "Koilz",
+			"description": "Balance the weight of two vertex groups",
+			"warning": "",
+			"location": "Properties > Data > Vertex Groups > Edit Mode",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://developer.blender.org/F116359",
+		"sha256": "c80caecd6584b6ac749c7e6a9fbd6ed889ad74ad6443c677589f8c49a6a8d558",
+		"file": true
+	},
+	"shape_key_drivers_15": {
+		"info": {
+			"category": "Rigging",
+			"version": [
+				1,
+				5
+			],
+			"name": "Shape Key Drivers",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Rigging/Shape_Key_Drivers",
+			"author": "Koilz",
+			"description": "Generate shape key drivers for the active pose bone",
+			"warning": "",
+			"location": "3D View > Pose Mode > Properties > Shape Key Drivers",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://developer.blender.org/F113861",
+		"sha256": "a5f0f81a40d3dcf36ac232d347172b6763bee3befb2c753a9b05a8061f786ac9",
+		"file": true
+	},
+	"letterbox": {
+		"info": {
+			"category": "Sequencer",
+			"version": [
+				0,
+				1
+			],
+			"name": "VSE letterboxing",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Sequencer/Letterbox",
+			"author": "Robert Forsman <blender@thoth.purplefrog.com>",
+			"blender": [
+				2,
+				71,
+				0
+			],
+			"warning": "",
+			"location": "Video Sequence Editor > Strip > Letterbox",
+			"description": "A menu for adding letterboxes to VSE strips that don't have the exact same aspect ratio as the scene"
+		},
+		"url": "https://raw.githubusercontent.com/mutantbob/blender-letterbox/master/letterbox.py",
+		"sha256": "29148980af3be7e50bfefeeb30e7129c812ed01e9096e67a1abf40f6c227a3b8",
+		"file": true
+	},
+	"vse-loop": {
+		"info": {
+			"category": "Sequencer",
+			"version": [
+				0,
+				1
+			],
+			"name": "VSE loop media",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Sequencer/Loop_Media",
+			"author": "Robert Forsman <blender@thoth.purplefrog.com>",
+			"blender": [
+				2,
+				71,
+				0
+			],
+			"warning": "",
+			"location": "Video Sequence Editor > Strip > Loop Media",
+			"description": "easily loop the frames of the target strip"
+		},
+		"url": "https://raw.githubusercontent.com/mutantbob/blender-vse-loop/master/vse-loop.py",
+		"sha256": "91a52c8095017ff16e0bbaefdceda9e93024f941594cc7291bad49e97aff961d",
+		"file": true
+	},
+	"checkforupdates": {
+		"info": {
+			"category": "System",
+			"version": [
+				0,
+				2
+			],
+			"name": "Check for update",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/Check_for_updates",
+			"author": "Julien Duroure",
+			"tracker_url": "https://projects.blender.org/tracker/index.php?func=detail&aid=37310&group_id=153&atid=467",
+			"blender": [
+				2,
+				69,
+				0
+			],
+			"warning": "",
+			"location": "Help > Check for updates",
+			"description": "Check for new version of Blender, based on download page."
+		},
+		"url": "https://developer.blender.org/F24200",
+		"sha256": "fca929b52c88f7ef3f5a5a79db38952c16af48596dfab6e7bc9fdf1eb5c512b8",
+		"file": true
+	},
+	"uv_island_tools": {
+		"info": {
+			"category": "UV",
+			"version": [
+				1,
+				3,
+				5
+			],
+			"name": "Island Tools",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/UV/Island_Tools",
+			"author": "Jordi Vall-llovera Medina",
+			"description": "Tools for transform islands from individual origins",
+			"tracker_url": "",
+			"warning": "",
+			"location": "UV / Image Editor",
+			"blender": [
+				2,
+				6,
+				4
+			]
+		},
+		"url": "https://dl.dropbox.com/u/65106662/updates/uv_island_tools.py",
+		"sha256": "bae4ca2198fa2c4e2dab3eba7ebf23b87aa27b32a343a1d4246fa187e361547f",
+		"file": true
+	},
+	"uv_copy_and_paste_uv": {
+		"info": {
+			"category": "UV",
+			"version": [
+				2,
+				0
+			],
+			"name": "Copy and Paste UV",
+			"wiki_url": "",
+			"author": "Nutti",
+			"description": "Copy and Paste UV data",
+			"tracker_url": "",
+			"warning": "",
+			"location": "UV Mapping > Copy and Paste UV",
+			"blender": [
+				2,
+				7,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/nutti/Copy-And-Paste-UV_Blender-Ext/master/uv_copy_and_paste_uv.py",
+		"sha256": "d1f781df79987f60290b3aaee57194bf79b94e6a9add7e3b170cc6a8acb4f284",
+		"file": true
+	},
+	"uv_reproject_image": {
+		"info": {
+			"category": "UV",
+			"version": [
+				1,
+				0
+			],
+			"name": "Reproject image",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/UV/Reproject_image",
+			"author": "Jonathan Giroux (Bloutiouf)",
+			"description": "Reproject UV coords based on image plane",
+			"warning": "",
+			"location": "UV unwrap > Reproject image",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Bloutiouf/uv_reproject_image/master/uv_reproject_image.py",
+		"sha256": "fddb26ea32673a246e6a0413dd575c84dcf4adda98af9ae9dccc094d2d48d0ce",
+		"file": true
 	}
 }
