@@ -1,0 +1,26 @@
+{
+	"addon_registry": {
+		"info": {
+			"category": "System",
+			"version": [
+				0,
+				1,
+				0
+			],
+			"name": "Addon Registry",
+			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/Addon_Registry",
+			"author": "Jonathan Giroux (Bloutiouf)",
+			"description": "Manage addons the easy way!",
+			"warning": "",
+			"location": "User Preferences > Addons",
+			"blender": [
+				2,
+				70,
+				0
+			]
+		},
+		"url": "https://raw.githubusercontent.com/Bloutiouf/blender-addon-registry/master/addon_registry.py",
+		"sha256": "14e7585922ec971bfc75ca25b8dea2d0bf51b0f5c325f5696a6651dd78f2bcf7",
+		"file": true
+	}
+}

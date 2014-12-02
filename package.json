@@ -1,0 +1,32 @@
+{
+  "name": "blender-addon-registry",
+  "description": "Manage Blender addons the easy way!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Bloutiouf/blender-addon-registry",
+  "author": {
+    "name": "Bloutiouf",
+    "email": "bloutiouf@gmail.com",
+    "url": "http://bloutiouf.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bloutiouf/blender-addon-registry"
+  },
+  "bugs": {
+    "url": "https://github.com/Bloutiouf/blender-addon-registry/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "merge": "^1.2.0",
+    "request": "^2.49.0",
+    "rimraf": "^2.2.8"
+  },
+  "devDependencies": {
+    "ycommands": "^0.1.1"
+  },
+  "keywords": [
+    "blender"
+  ]
+}
