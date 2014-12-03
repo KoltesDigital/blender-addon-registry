@@ -5,7 +5,7 @@
 			"version": [
 				0,
 				1,
-				0
+				2
 			],
 			"name": "Addon Registry",
 			"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/Addon_Registry",
@@ -20,7 +20,7 @@
 			]
 		},
 		"url": "https://raw.githubusercontent.com/Bloutiouf/blender-addon-registry/master/addon_registry.py",
-		"sha256": "14e7585922ec971bfc75ca25b8dea2d0bf51b0f5c325f5696a6651dd78f2bcf7",
+		"sha256": "41e5bc87b686344b16665def0ed6789dadeaa843e0ae4189f4ce00c6ff962190",
 		"file": true
 	},
 	"space_view3d_screencast_keys": {
