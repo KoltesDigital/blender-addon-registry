@@ -4,6 +4,8 @@ Manage addons the easy way!
 
 ## Installation
 
+### Addon
+
 1. Download the file <https://raw.githubusercontent.com/Bloutiouf/blender-addon-registry/master/addon_registry.py>
 2. In Blender, go to **File** > **User preferences...** (`Ctrl + Alt + U`)
 3. Click on **Addons** at the top
@@ -12,6 +14,15 @@ Manage addons the easy way!
 6. Enable the addon by ticking the rightmost box
 
 The addon registry now appears below the regular addon panel. Just scroll down!
+
+### Root certificates
+
+Python in Blender does not ship with root certificates, which is unfortunate because the registry is served over HTTPS. Without these certificates, connection errors will show up.
+
+1. Download the cacerts from <https://github.com/jcgregorio/httplib2/tree/master/python3/httplib2>
+2. Rename the file to `cacert.pem` and move it into `Blender installation path /VERSION/python/lib/site-packages/requests`
+
+No need to restart Blender.
 
 ## Usage
 
