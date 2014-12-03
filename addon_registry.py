@@ -88,8 +88,8 @@ error_titles = [
     "Failed to copy the addon.",
     "Failed to download the addon.",
     "The addon is not downloadable.",
-    "Failed to retrieve the addon list."
-    "Hash mismatch;"
+    "Failed to retrieve the addon list.",
+    "Hash mismatch;",
     "The registry record is not hashed.",
     "Addon is not in the registry."
 ] 
@@ -118,7 +118,7 @@ def install(addon_name):
     
     if "://" in addon["url"]:
         try:
-            res = requests.get(addon["url"], proxies=configuration["requests-proxies"], timeout=configuration["requests-timeout"], stream=True)
+            res = requests.get(addon["url"], proxies=configuration["requests-proxies"], timeout=configuration["requests-timeout"], stream=True, verify=True)
             res.raise_for_status()
         except:
             return ERROR_FAILED_REQUEST
@@ -199,6 +199,8 @@ def save_configuration():
         json.dump(configuration, f)
 
 def update_addon_database():
+    global lastError
+    
     if not configuration["registries"]:
         return false
     
@@ -212,7 +214,7 @@ def update_addon_database():
         
         try:
             if "://" in url:
-                res = requests.get(url, proxies=configuration["requests-proxies"], timeout=configuration["requests-timeout"])
+                res = requests.get(url, proxies=configuration["requests-proxies"], timeout=configuration["requests-timeout"], verify=True)
                 res.raise_for_status()
                 content = res.text
             else:
@@ -358,6 +360,8 @@ class AddonRegistryPanel(Panel):
                 if peers and (type(peers) is not list or len(peers) == 0):
                     peers = None
                 
+                warning = info.get("warning", None)
+                
                 col_box = col.column()
                 box = col_box.box()
                 colsub = box.column()
@@ -371,7 +375,7 @@ class AddonRegistryPanel(Panel):
                 text.label(text="%s: %s" % (info["category"], info["name"]))
                 if peers:
                     text.label(icon='LINK_AREA')
-                if info["warning"]:
+                if warning:
                     text.label(icon='ERROR')
                     
                 buttons = sub.split(0.5)
@@ -419,10 +423,10 @@ class AddonRegistryPanel(Panel):
                         split = colsub.row().split(percentage=0.15)
                         split.label(text="Version:")
                         split.label(text=".".join(str(x) for x in info["version"]), translate=False)
-                    if info["warning"]:
+                    if warning:
                         split = colsub.row().split(percentage=0.15)
                         split.label(text="Warning:")
-                        split.label(text="  " + info["warning"], icon='ERROR')
+                        split.label(text="  " + warning, icon='ERROR')
                     
                     separators = 2
                     split = colsub.row().split(percentage=0.15)
