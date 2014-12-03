@@ -98,6 +98,8 @@ lastError = ERROR_NONE
 
 configuration = copy.deepcopy(default_configuration)
 
+sorted_addons = []
+
 def get_addon_dir(dir="addons_extern", create=False):
     addon_dir = os.path.join(bpy.utils.script_path_user(), dir)
     if create and not os.path.isdir(addon_dir):
@@ -191,12 +193,20 @@ def load_configuration():
     try:
         with open(os.path.join(get_addon_dir(dir="addons"), ".addon_registry"), 'r') as f:
             configuration = json.load(f)
+        sort_addonds()
     except:
         pass
 
 def save_configuration():
+    sort_addonds()
     with open(os.path.join(get_addon_dir(dir="addons", create=True), ".addon_registry"), 'w') as f:
         json.dump(configuration, f)
+
+def sort_addonds():
+    global sorted_addons
+    sorted_addons = list(configuration["addons"].items())
+    sorted_addons.sort(key=lambda pair: pair[1]["info"]["category"] + ": " + pair[1]["info"]["name"])
+    
 
 def update_addon_database():
     global lastError
@@ -327,7 +337,7 @@ class AddonRegistryPanel(Panel):
         filter = wm.addon_registry_filter
         search = wm.addon_registry_search.lower()
         
-        for name, addon in configuration["addons"].items():
+        for name, addon in sorted_addons:
             info = addon["info"]
             available_version = info["version"]
             show_expanded = addon.get("show_expanded", False)
