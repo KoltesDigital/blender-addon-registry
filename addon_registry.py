@@ -23,7 +23,7 @@
 bl_info = {
     "name": "Addon Registry",
     "author": "Jonathan Giroux (Bloutiouf)",
-    "version": (0, 1, 0),
+    "version": (0, 1, 2),
     "blender": (2, 70, 0),
     "location": "User Preferences > Addons",
     "description": "Manage addons the easy way!",
