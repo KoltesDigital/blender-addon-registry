@@ -2,6 +2,8 @@
 
 Manage addons the easy way!
 
+![interface](http://wiki.blender.org/uploads/5/5b/Addon-Registry-interface.png)
+
 ## Installation
 
 ### Addon
@@ -35,6 +37,8 @@ The button ![CANCEL](http://wiki.blender.org/uploads/5/50/Icon-CANCEL.png) **ver
 Addons may be bundled together in the same archive file, i.e. they will be installed together. In this case, the icon ![LINK_AREA](http://wiki.blender.org/uploads/c/c4/Icon-LINK_AREA.png) appears, and the bundled addons are shown when you expand the addon box.
 
 Once installed, the addons appear in the regular addon panel as well. They can be enabled or disabled from both panels.
+
+On the lower right corner, the button ![FILE_REFRESH](http://wiki.blender.org/uploads/4/40/Icon-FILE_REFRESH.png) **Update addons from registry** updates the addon database, then updates all addons that have a newer available version.
 
 ### Installation directory
 
