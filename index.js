@@ -283,15 +283,21 @@ if (require.main === module) {
 			boolean: true,
 			description: 'Do not save changes to addons.json'
 		})
-		.command('add url|path ...', 'Add an addon', function(argv, callback) {
+		.command('add url|path ...', 'Add some addons', function(argv, callback) {
 			return async.each(argv._.slice(1), function(url, callback) {
 				return exports.add(url, argv, callback);
 			}, callback);
 		})
 		.command('list', 'List addons', exports.list)
-		.command('remove name ...', 'Remove an addon.', function(argv, callback) {
+		.command('remove name ...', 'Remove some addons', function(argv, callback) {
 			return async.each(argv._.slice(1), function(name, callback) {
 				return exports.remove(name, argv, callback);
+			}, callback);
+		})
+		.command('update [name ...]', 'Update some or all addons', function(argv, callback) {
+			var names = (argv._.length > 1 ? argv._.slice(1) : Object.keys(addons));
+			return async.each(names, function(name, callback) {
+				return exports.add(addons[name].url, argv, callback);
 			}, callback);
 		})
 		.execute(function(err) {
