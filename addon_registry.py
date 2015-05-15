@@ -279,26 +279,26 @@ class AddonRegistryPanel(Panel):
                 row.operator("wm.url_open", icon='URL', text="Download 7-Zip").url = "http://www.7-zip.org/download.html"
                 row.operator("wm.url_open", icon='URL', text="Installation instructions").url = "http://www.7-zip.org/download.html"
             
-            if lastError == ERROR_FAILED_COPY:
+            elif lastError == ERROR_FAILED_COPY:
                 box.label("The addon file is unreachable.")
             
-            if lastError == ERROR_FAILED_DOWNLOAD:
+            elif lastError == ERROR_FAILED_DOWNLOAD:
                 box.label("Something may be wrong with your Internet connection. Please try again later.")
             
-            if lastError == ERROR_FAILED_REQUEST:
+            elif lastError == ERROR_FAILED_REQUEST:
                 box.label("The server hosting the addon may be down. Please try again later.")
                 box.label("The addon may have moved to another URL. If you think this is the case, please report it using the following button, so that the maintainer will update the registry.")
             
-            if lastError == ERROR_FAILED_RETRIEVE_ADDON_LIST:
+            elif lastError == ERROR_FAILED_RETRIEVE_ADDON_LIST:
                 box.label("The registry server may be down. Please try again later.")
                 box.label("The registry may have moved to another URL. If you think this is the case, please report it using the following button, so that the maintainer will update the registry.")
             
-            if lastError == ERROR_HASH_MISMATCH:
+            elif lastError == ERROR_HASH_MISMATCH:
                 box.label("The downloaded addon does not match the registry record. For security reasons, it won't be installed.")
                 box.label("It could mean that the addon's author has uploaded a new version with the same URL.")
                 box.label("If you think this is the case, please report it using the following button, so that the maintainer will update the registry.")
             
-            if lastError == ERROR_NO_HASH:
+            elif lastError == ERROR_NO_HASH:
                 box.label("The registry record does not contain an expected hash, therefore the addon authenticity can't be verified.")
                 box.label("You may be using an unofficial registry. If this is the case, please report it to its maintainers.")
             
