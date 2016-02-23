@@ -180,12 +180,13 @@ def install(addon_name):
     return ERROR_NONE
 
 def is_newer_version(available, installed):
-    common_len = min(len(available), len(installed))
-    for i in range(common_len):
-        if available[i] > installed[i]:
+    for available_i, installed_i in zip(available, installed):
+        if available_i > installed_i:
             return True
-        if available[i] < installed[i]:
+        
+        if available_i < installed_i:
             return False
+            
     return len(available) > len(installed)
 
 def load_configuration():
