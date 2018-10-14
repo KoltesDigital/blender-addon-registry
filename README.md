@@ -2,7 +2,7 @@
 
 Manage addons the easy way!
 
-![interface](http://wiki.blender.org/uploads/5/5b/Addon-Registry-interface.png)
+![interface](https://en.blender.org/uploads/5/5b/Addon-Registry-interface.png)
 
 ## Installation
 
@@ -30,19 +30,19 @@ No need to restart Blender.
 
 The panel is very similar to the regular addon panel. It displays addons and their information that are recorded in the registry.
 
-The button ![WORLD](http://wiki.blender.org/uploads/7/70/Icon-WORLD.png) **version** displays the latest version available, if the addon is not installed or is not up-to-date. Click on it to download and install the addon.
+The button ![WORLD](https://en.blender.org/uploads/7/70/Icon-WORLD.png) **version** displays the latest version available, if the addon is not installed or is not up-to-date. Click on it to download and install the addon.
 
-The button ![CANCEL](http://wiki.blender.org/uploads/5/50/Icon-CANCEL.png) **version** displays the installed version available, if any. Click on it to remove the addon.
+The button ![CANCEL](https://en.blender.org/uploads/5/50/Icon-CANCEL.png) **version** displays the installed version available, if any. Click on it to remove the addon.
 
-Addons may be bundled together in the same archive file, i.e. they will be installed together. In this case, the icon ![LINK_AREA](http://wiki.blender.org/uploads/c/c4/Icon-LINK_AREA.png) appears, and the bundled addons are shown when you expand the addon box.
+Addons may be bundled together in the same archive file, i.e. they will be installed together. In this case, the icon ![LINK_AREA](https://en.blender.org/uploads/c/c4/Icon-LINK_AREA.png) appears, and the bundled addons are shown when you expand the addon box.
 
 Once installed, the addons appear in the regular addon panel as well. They can be enabled or disabled from both panels.
 
-On the lower right corner, the button ![FILE_REFRESH](http://wiki.blender.org/uploads/4/40/Icon-FILE_REFRESH.png) **Update addons from registry** updates the addon database, then updates all addons that have a newer available version.
+On the lower right corner, the button ![FILE_REFRESH](https://en.blender.org/uploads/4/40/Icon-FILE_REFRESH.png) **Update addons from registry** updates the addon database, then updates all addons that have a newer available version.
 
 ### Installation directory
 
-Addons are installed in `scripts/addons_extern`, meaning that they will appear in the category ![MOD_EXPLODE](http://wiki.blender.org/uploads/e/e5/Icon-MOD_EXPLODE.png) **Testing**. This is to remind you that they may harm your computer.
+Addons are installed in `scripts/addons_extern`, meaning that they will appear in the category ![MOD_EXPLODE](https://en.blender.org/uploads/e/e5/Icon-MOD_EXPLODE.png) **Testing**. This is to remind you that they may harm your computer.
 
 Updating an addon which was installed in `scripts/addons` or `scripts/addons_contrib` also moves it to `scripts/addons_extern`.
 
